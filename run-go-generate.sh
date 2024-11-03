@@ -2,4 +2,5 @@
 
 set -eu -o pipefail
 
-echo "$@" | xargs -n1 go generate
+#echo "$@" | xargs -n1 go generate
+go generate ./...
